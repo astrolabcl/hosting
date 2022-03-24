@@ -1,6 +1,6 @@
 <?php
-$para      = 'nobody@example.com';
-$titulo    = 'El título';
+$para      = 'astrolabmusicchile@gmail.com';
+$titulo    = 'El título de prueba';
 $mensaje   = 'Hola';
 $cabeceras = 'From: webmaster@example.com' . "\r\n" .
     'Reply-To: webmaster@example.com' . "\r\n" .
@@ -8,7 +8,7 @@ $cabeceras = 'From: webmaster@example.com' . "\r\n" .
 
 mail($para, $titulo, $mensaje, $cabeceras);
 
-header("Location: https://example.com/myOtherPage.php");
+header("Location: https://astrolabcl.github.io/hosting/?sendStatus=01");
 die();
 
 ?>
